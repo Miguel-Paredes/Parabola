@@ -57,7 +57,7 @@ public class Parabola {
     public float parabola(float h, float k, float a, float b){
        return (this.k=k);
     }
-    
+
     public void imprimirDatos(){
         System.out.println(this.k);
         System.out.println(this.h);
