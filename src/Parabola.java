@@ -13,7 +13,7 @@ public class Parabola {
         this.x = x;
         this.y = y;
     }
-
+//ñ
     public float getK() {
         return k;
     }
