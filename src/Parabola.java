@@ -1,5 +1,4 @@
 public class Parabola {
-    //para las figuras cubo=ado × lado × lado. piramide= (area*base*h)/3, esfera = 4/3 π r³ y cilindro=π r² h
     private float k;
     private float h;
     private float a;
