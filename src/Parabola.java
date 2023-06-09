@@ -16,7 +16,7 @@ public class Parabola {
     public float getK() {
         return k;
     }
-//
+//comentario
     public void setK(float k) {
         this.k = k;
     }
