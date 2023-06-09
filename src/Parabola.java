@@ -7,9 +7,8 @@ public class Parabola {
     private float resultado;
 
 
-    public Parabola(float k, float h, float a, float x, float y) {
+    public Parabola(float k, float a, float x, float y) {
         this.k = k;
-        this.h = h;
         this.a = a;
         this.x = x;
         this.y = y;
@@ -17,7 +16,7 @@ public class Parabola {
     public float getK() {
         return k;
     }
-//comentario 1
+
     public void setK(float k) {
         this.k = k;
     }
@@ -58,16 +57,12 @@ public class Parabola {
        return (this.k=k);
     }
     private float calculo_eje_horizontal(){
-         this.h = (((this.y*this.y) - (2*this.y*this.k) + (this.k*this.k) - (4*this.a*this.x)) / (-4*this.a));
-        return this.h;
+        this.h = (((y*y) - (2*y*k) + (k*k) - (4*a*x)) / (-4*a));
+        return h;
     }
 
     public void imprimirDatos(){
-        System.out.println(this.k);
         System.out.println(this.h);
-        System.out.println(this.a);
-        System.out.println(this.x);
-        System.out.println(this.y);
     }
 }
 
