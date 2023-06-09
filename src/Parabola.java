@@ -58,6 +58,13 @@ public class Figuras3D {
        // return (this.-this.k);
     }
 
+    public void imprimirDatos(){
+        System.out.println(this.k);
+        System.out.println(this.h);
+        System.out.println(this.a);
+        System.out.println(this.x);
+        System.out.println(this.y);
+    }
 }
 
 
