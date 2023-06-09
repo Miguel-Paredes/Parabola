@@ -1,4 +1,4 @@
-public class Figuras3D {
+public class Parabola {
     //para las figuras cubo=ado × lado × lado. piramide= (area*base*h)/3, esfera = 4/3 π r³ y cilindro=π r² h
     private float k;
     private float h;
@@ -6,7 +6,7 @@ public class Figuras3D {
     private float x;
     private float y;
 
-    public Figuras3D(float k, float h, float a, float x, float y) {
+    public Parabola(float k, float h, float a, float x, float y) {
         this.k = k;
         this.h = h;
         this.a = a;
@@ -55,9 +55,9 @@ public class Figuras3D {
     }
 
     public float parabola(float h, float k, float a, float b){
-       // return (this.-this.k);
+       return (this.k=k);
     }
-
+    
     public void imprimirDatos(){
         System.out.println(this.k);
         System.out.println(this.h);
