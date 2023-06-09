@@ -5,6 +5,8 @@ public class Parabola {
     private float a;
     private float x;
     private float y;
+    private float resultado;
+
 
     public Parabola(float k, float h, float a, float x, float y) {
         this.k = k;
@@ -56,6 +58,10 @@ public class Parabola {
 
     public float parabola(float h, float k, float a, float b){
        return (this.k=k);
+    }
+    private float calculo_eje_horizontal(){
+         this.h = (((this.y*this.y) - (2*this.y*this.k) + (this.k*this.k) - (4*this.a*this.x)) / (-4*this.a));
+        return this.h;
     }
 
     public void imprimirDatos(){
