@@ -14,11 +14,10 @@ public class Parabola {
         this.x = x;
         this.y = y;
     }
-//ñ
     public float getK() {
         return k;
     }
-
+//comentario 1
     public void setK(float k) {
         this.k = k;
     }
